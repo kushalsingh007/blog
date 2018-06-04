@@ -1,3 +1,44 @@
+## Basic Configuration
 baseurl = "https://kushalsingh007.github.io/"
-title = "Error and Trial"
+languageCode = "en"
+
 theme = "hyde-hyde"
+
+## Hugo Built-in Features
+# disqusShortname = "error-and-trial"
+# googleAnalytics = "your-google-analytics-id"
+# enableRobotsTXT = true
+title = "Error/Trial"
+
+## Site Settings
+[params]
+    author = "Kushal Singh"
+    description = "Trying to do stuff"
+    authorimage = "/img/kushal.png"
+    dateformat = "Jan 2, 2006"
+    highlightjs = true
+    # highlightjsstyle = "github"
+    # please choose either GraphComment or Disqus
+    # GraphCommentId = "your-graph-comment-id" 
+
+## Social Accounts
+[params.social]
+    github = "kushalsingh007"
+    instagram = "_kushalsingh007"
+    linkedin = "kushalsingh007"
+    twitter = "_kushalsingh007"
+    facebook = "kushalsingh007"
+    stackoverflow = "kushalsingh007"
+    email = "kushal[dot]singh[@]students[dot]iiit[dot]ac[dot]in"
+
+## Main Menu
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
